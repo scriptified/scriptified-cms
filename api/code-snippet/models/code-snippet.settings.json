@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "code_snippets",
+  "info": {
+    "name": "CodeSnippet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "code": {
+      "type": "richtext",
+      "required": true
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "js",
+        "jsx",
+        "html",
+        "css"
+      ],
+      "required": true
+    },
+    "showLineNumbers": {
+      "type": "boolean",
+      "required": true
+    },
+    "quiz": {
+      "via": "code_snippet",
+      "model": "quiz"
+    }
+  }
+}

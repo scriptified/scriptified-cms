@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quizzes",
+  "info": {
+    "name": "Quiz",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answerId": {
+      "type": "integer",
+      "required": true
+    },
+    "options": {
+      "collection": "option",
+      "via": "quiz"
+    },
+    "code_snippet": {
+      "model": "code-snippet",
+      "via": "quiz"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/code-snippets",
+      "handler": "code-snippet.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/code-snippets/count",
+      "handler": "code-snippet.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/code-snippets/:id",
+      "handler": "code-snippet.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/code-snippets",
+      "handler": "code-snippet.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/code-snippets/:id",
+      "handler": "code-snippet.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/code-snippets/:id",
+      "handler": "code-snippet.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
