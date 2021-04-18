@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "issue_id": {
+      "via": "articles",
+      "model": "issues"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "articles",
+      "dominant": true
+    }
+  }
+}
