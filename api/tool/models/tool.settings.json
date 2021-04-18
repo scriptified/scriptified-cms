@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tools",
+  "info": {
+    "name": "Tool"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "logo": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "authors": {
+      "collection": "author",
+      "via": "tools",
+      "dominant": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "tools",
+      "dominant": true
+    }
+  }
+}

@@ -21,6 +21,10 @@
     "articles": {
       "via": "authors",
       "collection": "articles"
+    },
+    "tools": {
+      "via": "authors",
+      "collection": "tool"
     }
   }
 }
