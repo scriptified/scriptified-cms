@@ -12,16 +12,20 @@
   },
   "attributes": {
     "dateOfPublishing": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "imgURL": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "articles": {
       "collection": "articles",
