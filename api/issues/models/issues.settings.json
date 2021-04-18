@@ -28,8 +28,8 @@
       "required": true
     },
     "articles": {
-      "collection": "articles",
-      "via": "issue_id"
+      "via": "issue_id",
+      "collection": "articles"
     }
   }
 }

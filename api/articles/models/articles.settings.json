@@ -21,22 +21,22 @@
       "required": true,
       "unique": true
     },
-    "author": {
-      "type": "string",
-      "required": true,
-      "unique": false
-    },
     "issue_id": {
-      "via": "articles",
-      "model": "issues"
+      "model": "issues",
+      "via": "articles"
     },
     "description": {
       "type": "richtext",
       "required": true
     },
     "tags": {
-      "via": "articles",
       "collection": "tag",
+      "via": "articles",
+      "dominant": true
+    },
+    "authors": {
+      "collection": "author",
+      "via": "articles",
       "dominant": true
     }
   }
