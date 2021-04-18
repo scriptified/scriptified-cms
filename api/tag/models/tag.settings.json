@@ -18,6 +18,10 @@
     "articles": {
       "collection": "articles",
       "via": "tags"
+    },
+    "tips_of_the_day": {
+      "via": "tags",
+      "collection": "tip-of-the-day"
     }
   }
 }

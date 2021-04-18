@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tips_of_the_day",
+  "info": {
+    "name": "tipOfTheDay",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "sourceName": {
+      "type": "string",
+      "required": true
+    },
+    "sourceURL": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "tips_of_the_day",
+      "dominant": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
