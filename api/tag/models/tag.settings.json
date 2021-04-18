@@ -26,6 +26,10 @@
     "tools": {
       "via": "tags",
       "collection": "tool"
+    },
+    "talks": {
+      "via": "tags",
+      "collection": "talk"
     }
   }
 }

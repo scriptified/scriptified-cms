@@ -25,6 +25,10 @@
     "tools": {
       "via": "authors",
       "collection": "tool"
+    },
+    "talks": {
+      "via": "author",
+      "collection": "talk"
     }
   }
 }

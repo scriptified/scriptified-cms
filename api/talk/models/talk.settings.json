@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "talks",
   "info": {
-    "name": "article",
+    "name": "talk",
     "description": ""
   },
   "options": {
@@ -18,12 +18,8 @@
     },
     "url": {
       "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "issue_id": {
-      "model": "issues",
-      "via": "articles"
+      "unique": true,
+      "required": true
     },
     "description": {
       "type": "richtext",
@@ -31,17 +27,12 @@
     },
     "tags": {
       "collection": "tag",
-      "via": "articles",
+      "via": "talks",
       "dominant": true
     },
-    "authors": {
-      "collection": "author",
-      "via": "articles",
-      "dominant": true
-    },
-    "talks": {
-      "via": "tags",
-      "collection": "talk"
+    "author": {
+      "model": "author",
+      "via": "talks"
     }
   }
 }
