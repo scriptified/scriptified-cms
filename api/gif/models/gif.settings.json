@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gifs",
+  "info": {
+    "name": "GIF"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gifURL": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
