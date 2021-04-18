@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "issues",
+  "info": {
+    "name": "issue",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dateOfPublishing": {
+      "type": "date",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "imgURL": {
+      "type": "string",
+      "required": true
+    },
+    "articles": {
+      "collection": "articles",
+      "via": "issue_id"
+    }
+  }
+}

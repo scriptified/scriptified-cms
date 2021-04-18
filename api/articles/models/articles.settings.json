@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "author": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "issue_id": {
+      "via": "articles",
+      "model": "issues"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "tags": {
+      "via": "articles",
+      "collection": "tag",
+      "dominant": true
+    }
+  }
+}
