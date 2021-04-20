@@ -21,10 +21,6 @@
       "required": true,
       "unique": true
     },
-    "issue_id": {
-      "model": "issues",
-      "via": "articles"
-    },
     "description": {
       "type": "richtext",
       "required": true
@@ -38,10 +34,6 @@
       "collection": "author",
       "via": "articles",
       "dominant": true
-    },
-    "talks": {
-      "via": "tags",
-      "collection": "talk"
     }
   }
 }

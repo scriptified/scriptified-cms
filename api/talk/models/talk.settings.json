@@ -30,9 +30,10 @@
       "via": "talks",
       "dominant": true
     },
-    "author": {
-      "model": "author",
-      "via": "talks"
+    "authors": {
+      "collection": "author",
+      "via": "talks",
+      "dominant": true
     }
   }
 }

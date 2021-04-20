@@ -26,10 +26,6 @@
     "imgURL": {
       "type": "string",
       "required": true
-    },
-    "articles": {
-      "via": "issue_id",
-      "collection": "articles"
     }
   }
 }
