@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "authors",
   "info": {
-    "name": "tag",
-    "description": ""
+    "name": "Author"
   },
   "options": {
     "increments": true,
@@ -11,24 +10,24 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
+    },
+    "Website": {
+      "type": "string"
     },
     "articles": {
-      "via": "tags",
+      "via": "authors",
       "collection": "articles"
     },
-    "tips_of_the_day": {
-      "via": "tags",
-      "collection": "tip-of-the-day"
-    },
     "tools": {
-      "via": "tags",
+      "via": "authors",
       "collection": "tool"
     },
     "talks": {
-      "via": "tags",
+      "via": "authors",
       "collection": "talk"
     }
   }

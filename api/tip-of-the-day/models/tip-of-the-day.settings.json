@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "issues",
+  "collectionName": "tips_of_the_day",
   "info": {
-    "name": "issue",
+    "name": "tipOfTheDay",
     "description": ""
   },
   "options": {
@@ -11,21 +11,25 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "dateOfPublishing": {
-      "type": "date",
+    "description": {
+      "type": "richtext",
       "required": true
+    },
+    "sourceName": {
+      "type": "string",
+      "required": true
+    },
+    "sourceURL": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "tips_of_the_day",
+      "dominant": true
     },
     "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text",
-      "required": true
-    },
-    "imgURL": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   }
 }

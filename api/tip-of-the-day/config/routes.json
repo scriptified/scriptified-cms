@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tip-of-the-days",
+      "handler": "tip-of-the-day.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tip-of-the-days/count",
+      "handler": "tip-of-the-day.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tip-of-the-days/:id",
+      "handler": "tip-of-the-day.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tip-of-the-days",
+      "handler": "tip-of-the-day.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tip-of-the-days/:id",
+      "handler": "tip-of-the-day.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tip-of-the-days/:id",
+      "handler": "tip-of-the-day.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

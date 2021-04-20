@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "tools",
   "info": {
-    "name": "article",
-    "description": ""
+    "name": "Tool"
   },
   "options": {
     "increments": true,
@@ -11,28 +10,33 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true,
-      "unique": false
+      "unique": true
     },
     "url": {
       "type": "string",
       "required": true,
       "unique": true
     },
+    "logo": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
     "description": {
       "type": "richtext",
       "required": true
     },
-    "tags": {
-      "collection": "tag",
-      "via": "articles",
-      "dominant": true
-    },
     "authors": {
       "collection": "author",
-      "via": "articles",
+      "via": "tools",
+      "dominant": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "tools",
       "dominant": true
     }
   }
