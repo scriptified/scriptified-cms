@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_option_options",
+  "info": {
+    "name": "Option",
+    "icon": "certificate"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "option_id": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

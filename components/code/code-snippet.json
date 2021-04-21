@@ -1,14 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "code_snippets",
+  "collectionName": "components_code_code_snippets",
   "info": {
-    "name": "CodeSnippet"
+    "name": "CodeSnippet",
+    "icon": "file-code"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
+  "options": {},
   "attributes": {
     "code": {
       "type": "richtext",
@@ -26,11 +22,7 @@
     },
     "showLineNumbers": {
       "type": "boolean",
-      "required": true
-    },
-    "quiz": {
-      "via": "code_snippet",
-      "model": "quiz"
+      "required": false
     }
   }
 }

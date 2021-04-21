@@ -30,6 +30,11 @@
     },
     "title": {
       "type": "string"
+    },
+    "codeSnippet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "code.code-snippet"
     }
   }
 }

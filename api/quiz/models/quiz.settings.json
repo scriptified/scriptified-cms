@@ -19,13 +19,15 @@
       "type": "integer",
       "required": true
     },
-    "options": {
-      "collection": "option",
-      "via": "quiz"
+    "Option": {
+      "type": "component",
+      "repeatable": true,
+      "component": "option.option"
     },
-    "code_snippet": {
-      "model": "code-snippet",
-      "via": "quiz"
+    "CodeSnippet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "code.code-snippet"
     }
   }
 }
