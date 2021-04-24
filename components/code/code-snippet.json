@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_code_code_snippets",
+  "info": {
+    "name": "CodeSnippet",
+    "icon": "file-code"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "richtext",
+      "required": true
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "js",
+        "jsx",
+        "html",
+        "css"
+      ],
+      "required": true
+    },
+    "showLineNumbers": {
+      "type": "boolean",
+      "required": false
+    }
+  }
+}

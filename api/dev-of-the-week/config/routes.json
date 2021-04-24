@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dev-of-the-weeks",
+      "handler": "dev-of-the-week.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dev-of-the-weeks/count",
+      "handler": "dev-of-the-week.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dev-of-the-weeks/:id",
+      "handler": "dev-of-the-week.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dev-of-the-weeks",
+      "handler": "dev-of-the-week.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dev-of-the-weeks/:id",
+      "handler": "dev-of-the-week.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dev-of-the-weeks/:id",
+      "handler": "dev-of-the-week.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

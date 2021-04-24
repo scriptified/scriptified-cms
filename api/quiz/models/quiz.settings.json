@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tips_of_the_day",
+  "collectionName": "quizzes",
   "info": {
-    "name": "tipOfTheDay",
+    "name": "Quiz",
     "description": ""
   },
   "options": {
@@ -11,27 +11,20 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "description": {
-      "type": "richtext",
-      "required": true
-    },
-    "sourceName": {
+    "question": {
       "type": "string",
       "required": true
     },
-    "sourceURL": {
-      "type": "string",
+    "answerId": {
+      "type": "integer",
       "required": true
     },
-    "tags": {
-      "collection": "tag",
-      "via": "tips_of_the_day",
-      "dominant": true
+    "Option": {
+      "type": "component",
+      "repeatable": true,
+      "component": "option.option"
     },
-    "title": {
-      "type": "string"
-    },
-    "codeSnippet": {
+    "CodeSnippet": {
       "type": "component",
       "repeatable": false,
       "component": "code.code-snippet"
