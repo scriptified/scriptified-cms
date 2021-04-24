@@ -26,6 +26,34 @@
     "imgURL": {
       "type": "string",
       "required": true
+    },
+    "articles": {
+      "collection": "articles",
+      "via": "issue"
+    },
+    "tipOfTheWeek": {
+      "model": "tip-of-the-day",
+      "via": "issue"
+    },
+    "tools": {
+      "collection": "tool",
+      "via": "issue"
+    },
+    "devOfTheWeek": {
+      "model": "dev-of-the-week",
+      "via": "issue"
+    },
+    "talks": {
+      "collection": "talk",
+      "via": "issue"
+    },
+    "gif": {
+      "model": "gif",
+      "via": "issue"
+    },
+    "quiz": {
+      "model": "quiz",
+      "via": "issue"
     }
   }
 }

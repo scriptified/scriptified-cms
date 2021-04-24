@@ -17,6 +17,10 @@
     "caption": {
       "type": "richtext",
       "required": true
+    },
+    "issue": {
+      "via": "gif",
+      "model": "issues"
     }
   }
 }

@@ -40,6 +40,10 @@
     },
     "instagram": {
       "type": "string"
+    },
+    "issue": {
+      "via": "devOfTheWeek",
+      "model": "issues"
     }
   }
 }

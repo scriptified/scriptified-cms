@@ -34,6 +34,10 @@
       "collection": "author",
       "via": "articles",
       "dominant": true
+    },
+    "issue": {
+      "via": "articles",
+      "model": "issues"
     }
   }
 }

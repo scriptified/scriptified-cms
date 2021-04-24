@@ -38,6 +38,10 @@
       "collection": "tag",
       "via": "tools",
       "dominant": true
+    },
+    "issue": {
+      "via": "tools",
+      "model": "issues"
     }
   }
 }

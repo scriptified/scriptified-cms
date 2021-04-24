@@ -28,6 +28,10 @@
       "type": "component",
       "repeatable": false,
       "component": "code.code-snippet"
+    },
+    "issue": {
+      "via": "quiz",
+      "model": "issues"
     }
   }
 }
