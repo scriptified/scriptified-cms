@@ -52,8 +52,8 @@
       "via": "issue"
     },
     "quiz": {
-      "model": "quiz",
-      "via": "issue"
+      "via": "issue",
+      "model": "quiz"
     }
   }
 }

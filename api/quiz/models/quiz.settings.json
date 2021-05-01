@@ -30,8 +30,8 @@
       "component": "code.code-snippet"
     },
     "issue": {
-      "via": "quiz",
-      "model": "issues"
+      "model": "issues",
+      "via": "quiz"
     }
   }
 }
