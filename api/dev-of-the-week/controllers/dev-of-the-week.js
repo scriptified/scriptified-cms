@@ -23,7 +23,6 @@ const parseEntity = entity => ({
 module.exports = {
   async find(ctx) {
     let entities;
-    console.log(strapi.services);
     if (ctx.query._q) {
       entities = await strapi.services['dev-of-the-week'].search(ctx.query);
     } else {
