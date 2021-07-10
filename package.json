@@ -24,7 +24,11 @@
     "strapi-plugin-email": "3.6.2",
     "strapi-plugin-upload": "3.6.2",
     "strapi-plugin-users-permissions": "3.6.2",
-    "strapi-utils": "3.6.2"
+    "strapi-utils": "3.6.2",    
+    "file-saver": "2.0.2",
+    "pluralize": "8.0.0",
+    "strapi-helper-plugin": "3.2.5"
+
   },
   "author": {
     "name": "A Strapi developer"
