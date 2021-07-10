@@ -1,1 +1,349 @@
-[{"id":1,"name":"react-hot-toast","url":"https://react-hot-toast.com/","logo":"/images/issue-1/react-hot-toast.jpg","description":"A sleek library provides a lightweight, customizable and accessible API for adding beautiful toasts to your app.","published_at":"2021-04-18T16:03:56.653Z","created_at":"2021-04-18T16:03:54.897Z","updated_at":"2021-04-18T16:03:56.683Z","authors":[{"id":9,"Name":"Timo Lins","Website":"https://timo.sh/","published_at":"2021-04-18T15:54:36.760Z","created_at":"2021-04-18T15:54:35.053Z","updated_at":"2021-04-18T15:54:36.784Z"}],"tags":[{"id":1,"name":"React","published_at":"2021-04-18T09:56:56.626Z","created_at":"2021-04-18T09:51:26.520Z","updated_at":"2021-04-18T09:56:56.650Z"},{"id":6,"name":"CSS","published_at":"2021-04-18T09:56:42.829Z","created_at":"2021-04-18T09:56:39.804Z","updated_at":"2021-04-18T09:56:42.910Z"}]},{"id":2,"name":"Import Cost","url":"https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost","logo":"/images/issue-1/import-cost.jpg","description":"If you care about the bundle size of your libraries, then this VSCode extension can make your life a hell lot easier. This extension will display inline in the editor the size of the imported package. The extension utilizes webpack with babili-webpack-plugin in order to detect the imported size.","published_at":"2021-04-18T16:04:48.850Z","created_at":"2021-04-18T16:04:47.308Z","updated_at":"2021-04-18T16:04:48.880Z","authors":[{"id":10,"Name":"Wix","Website":"https://wix.com","published_at":"2021-04-18T15:54:55.784Z","created_at":"2021-04-18T15:54:54.247Z","updated_at":"2021-04-18T15:54:55.851Z"}],"tags":[{"id":9,"name":"Optimization","published_at":"2021-04-18T10:08:30.721Z","created_at":"2021-04-18T10:08:28.889Z","updated_at":"2021-04-18T10:08:30.755Z"},{"id":2,"name":"JavaScript","published_at":"2021-04-18T09:56:53.651Z","created_at":"2021-04-18T09:51:43.044Z","updated_at":"2021-04-18T09:56:53.690Z"},{"id":8,"name":"Webpack","published_at":"2021-04-18T10:08:16.872Z","created_at":"2021-04-18T10:08:13.816Z","updated_at":"2021-04-18T10:08:16.897Z"}]},{"id":3,"name":"Meta Tags","url":"https://metatags.io/","logo":"/images/issue-2/meta-tags.svg","description":"A one-click meta-tags generator with previews for Google, Facebook, Twitter, LinkedIn, Pinterest and Slack.","published_at":"2021-04-18T16:05:32.112Z","created_at":"2021-04-18T16:05:30.412Z","updated_at":"2021-04-18T16:05:32.139Z","authors":[{"id":11,"Name":"Meta Tags","Website":"https://metatags.io/","published_at":"2021-04-18T15:56:04.086Z","created_at":"2021-04-18T15:56:02.431Z","updated_at":"2021-04-18T15:56:04.111Z"}],"tags":[{"id":11,"name":"SEO","published_at":"2021-04-18T10:08:58.083Z","created_at":"2021-04-18T10:08:56.601Z","updated_at":"2021-04-18T10:08:58.117Z"}]},{"id":4,"name":"Remotion","url":"https://remotion.dev","logo":"/images/issue-2/remotion.png","description":"Use the magic of CSS, SVGs and WebGL to create professionally designed videos with React 17 and TypeScript. It also allows you to preview your the video in the browser with fast refresh and Timelines for frames.","published_at":"2021-04-18T16:06:13.423Z","created_at":"2021-04-18T16:06:11.659Z","updated_at":"2021-04-18T16:06:13.456Z","authors":[{"id":12,"Name":"Jonny Burger","Website":"https://jonny.io/","published_at":"2021-04-18T15:56:27.760Z","created_at":"2021-04-18T15:56:26.171Z","updated_at":"2021-04-18T15:56:27.809Z"}],"tags":[{"id":1,"name":"React","published_at":"2021-04-18T09:56:56.626Z","created_at":"2021-04-18T09:51:26.520Z","updated_at":"2021-04-18T09:56:56.650Z"}]},{"id":5,"name":"react-laag","url":"https://www.react-laag.com/","logo":"/images/issue-3/react-laag.png","description":"It is a simple and lightweight library, that provides hooks for tooltip and popovers. It also gives you a really comprehensive API which gives you full control over the look and feel.","published_at":"2021-04-18T16:07:12.080Z","created_at":"2021-04-18T16:07:10.294Z","updated_at":"2021-04-18T16:07:12.108Z","authors":[{"id":13,"Name":"Erik Verweij","Website":"https://www.erikverweij.dev/","published_at":"2021-04-18T15:57:25.708Z","created_at":"2021-04-18T15:57:23.701Z","updated_at":"2021-04-18T15:57:25.743Z"}],"tags":[{"id":12,"name":"UI","published_at":"2021-04-18T10:09:20.491Z","created_at":"2021-04-18T10:09:18.964Z","updated_at":"2021-04-18T10:09:20.514Z"}]},{"id":6,"name":"Phosphor Icons","url":"https://phosphoricons.com/","logo":"/images/issue-3/phosphor-icons.png","description":"A free and open-source icon family for interfaces, diagrams and presentations. Easy to pick up and plug in. Truly consistent in style and scale. Flexible to multiple sizes and weights.","published_at":"2021-04-18T16:07:55.224Z","created_at":"2021-04-18T16:07:53.466Z","updated_at":"2021-04-18T16:07:55.254Z","authors":[{"id":14,"Name":"Helena Zhang","Website":"https://www.helenazhang.com/","published_at":"2021-04-18T15:58:04.443Z","created_at":"2021-04-18T15:58:02.799Z","updated_at":"2021-04-18T15:58:04.467Z"},{"id":15,"Name":"Toby Fried","Website":"https://tobiasfried.com/","published_at":"2021-04-18T15:58:41.037Z","created_at":"2021-04-18T15:58:39.575Z","updated_at":"2021-04-18T15:58:41.068Z"}],"tags":[{"id":12,"name":"UI","published_at":"2021-04-18T10:09:20.491Z","created_at":"2021-04-18T10:09:18.964Z","updated_at":"2021-04-18T10:09:20.514Z"},{"id":21,"name":"Icons","published_at":"2021-04-18T16:22:43.097Z","created_at":"2021-04-18T16:22:41.222Z","updated_at":"2021-04-18T16:27:35.472Z"}]},{"id":7,"name":"Jitter","url":"https://jitter.video","logo":"/images/issue-4/jitter.svg","description":"Create rich animations for your design from your browser, with a UI as simple as creating a presentation in PowerPoint or Keynote.","published_at":"2021-04-18T16:08:42.751Z","created_at":"2021-04-18T16:08:41.130Z","updated_at":"2021-04-18T16:08:42.780Z","authors":[{"id":16,"Name":"Sébastien Robaszkiewicz","Website":"http://robi.me/","published_at":"2021-04-18T15:59:40.257Z","created_at":"2021-04-18T15:59:38.745Z","updated_at":"2021-04-18T15:59:40.317Z"}],"tags":[{"id":12,"name":"UI","published_at":"2021-04-18T10:09:20.491Z","created_at":"2021-04-18T10:09:18.964Z","updated_at":"2021-04-18T10:09:20.514Z"},{"id":17,"name":"Design","published_at":"2021-04-18T10:10:13.558Z","created_at":"2021-04-18T10:10:11.835Z","updated_at":"2021-04-18T10:10:13.610Z"}]},{"id":8,"name":"SVG Repo","url":"https://svgrepo.com","logo":"/images/issue-4/svg-repo.svg","description":"A huge repository of free SVG icons (over 300.000 icons), with a good search and filters.","published_at":"2021-04-18T16:09:28.077Z","created_at":"2021-04-18T16:09:26.345Z","updated_at":"2021-04-18T16:09:28.106Z","authors":[{"id":17,"Name":"SVG Repo","Website":"https://www.svgrepo.com/","published_at":"2021-04-18T16:01:09.115Z","created_at":"2021-04-18T16:01:07.409Z","updated_at":"2021-04-18T16:01:09.140Z"}],"tags":[{"id":12,"name":"UI","published_at":"2021-04-18T10:09:20.491Z","created_at":"2021-04-18T10:09:18.964Z","updated_at":"2021-04-18T10:09:20.514Z"},{"id":21,"name":"Icons","published_at":"2021-04-18T16:22:43.097Z","created_at":"2021-04-18T16:22:41.222Z","updated_at":"2021-04-18T16:27:35.472Z"}]},{"id":9,"name":"Omatsuri","url":"https://omatsuri.app/","logo":"/images/issue-5/omatsuri.svg","description":"A collection of browser tools like SVG to JSX generator, Keyboard events codes, Gradient generator etc. that can ease your life as a web developer.","published_at":"2021-04-18T16:10:11.565Z","created_at":"2021-04-18T16:10:09.784Z","updated_at":"2021-04-18T16:10:11.595Z","authors":[{"id":18,"Name":"Vitaly Rtishchev","Website":"https://github.com/rtivital","published_at":"2021-04-18T16:01:52.240Z","created_at":"2021-04-18T16:01:50.561Z","updated_at":"2021-04-18T16:01:52.269Z"}],"tags":[{"id":18,"name":"Productivity","published_at":"2021-04-18T10:10:43.391Z","created_at":"2021-04-18T10:10:41.091Z","updated_at":"2021-04-18T10:10:43.417Z"}]},{"id":10,"name":"Spectacle","url":"https://formidable.com/open-source/spectacle/","logo":"/images/issue-5/spectacle.png","description":"A React library that lets you build interactive presentation decks with JSX syntax, and allows you to live preview your code.","published_at":"2021-04-18T16:10:54.235Z","created_at":"2021-04-18T16:10:52.538Z","updated_at":"2021-04-18T16:10:54.264Z","authors":[{"id":19,"Name":"Formidable","Website":"https://formidable.com/","published_at":"2021-04-18T16:02:44.622Z","created_at":"2021-04-18T16:02:43.060Z","updated_at":"2021-04-18T16:02:44.650Z"}],"tags":[{"id":1,"name":"React","published_at":"2021-04-18T09:56:56.626Z","created_at":"2021-04-18T09:51:26.520Z","updated_at":"2021-04-18T09:56:56.650Z"},{"id":12,"name":"UI","published_at":"2021-04-18T10:09:20.491Z","created_at":"2021-04-18T10:09:18.964Z","updated_at":"2021-04-18T10:09:20.514Z"}]}]
+[
+  {
+    "id": 1,
+    "name": "react-hot-toast",
+    "url": "https://react-hot-toast.com/",
+    "logo": "/images/issue-1/react-hot-toast.jpg",
+    "description": "A sleek library provides a lightweight, customizable and accessible API for adding beautiful toasts to your app.",
+    "published_at": "2021-04-18T16:03:56.653Z",
+    "created_at": "2021-04-18T16:03:54.897Z",
+    "updated_at": "2021-04-18T16:03:56.683Z",
+    "authors": [
+      {
+        "id": 9,
+        "Name": "Timo Lins",
+        "Website": "https://timo.sh/",
+        "published_at": "2021-04-18T15:54:36.760Z",
+        "created_at": "2021-04-18T15:54:35.053Z",
+        "updated_at": "2021-04-18T15:54:36.784Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "published_at": "2021-04-18T09:56:56.626Z",
+        "created_at": "2021-04-18T09:51:26.520Z",
+        "updated_at": "2021-04-18T09:56:56.650Z"
+      },
+      {
+        "id": 6,
+        "name": "CSS",
+        "published_at": "2021-04-18T09:56:42.829Z",
+        "created_at": "2021-04-18T09:56:39.804Z",
+        "updated_at": "2021-04-18T09:56:42.910Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Import Cost",
+    "url": "https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost",
+    "logo": "/images/issue-1/import-cost.jpg",
+    "description": "If you care about the bundle size of your libraries, then this VSCode extension can make your life a hell lot easier. This extension will display inline in the editor the size of the imported package. The extension utilizes webpack with babili-webpack-plugin in order to detect the imported size.",
+    "published_at": "2021-04-18T16:04:48.850Z",
+    "created_at": "2021-04-18T16:04:47.308Z",
+    "updated_at": "2021-04-18T16:04:48.880Z",
+    "authors": [
+      {
+        "id": 10,
+        "Name": "Wix",
+        "Website": "https://wix.com",
+        "published_at": "2021-04-18T15:54:55.784Z",
+        "created_at": "2021-04-18T15:54:54.247Z",
+        "updated_at": "2021-04-18T15:54:55.851Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 9,
+        "name": "Optimization",
+        "published_at": "2021-04-18T10:08:30.721Z",
+        "created_at": "2021-04-18T10:08:28.889Z",
+        "updated_at": "2021-04-18T10:08:30.755Z"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "published_at": "2021-04-18T09:56:53.651Z",
+        "created_at": "2021-04-18T09:51:43.044Z",
+        "updated_at": "2021-04-18T09:56:53.690Z"
+      },
+      {
+        "id": 8,
+        "name": "Webpack",
+        "published_at": "2021-04-18T10:08:16.872Z",
+        "created_at": "2021-04-18T10:08:13.816Z",
+        "updated_at": "2021-04-18T10:08:16.897Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Meta Tags",
+    "url": "https://metatags.io/",
+    "logo": "/images/issue-2/meta-tags.svg",
+    "description": "A one-click meta-tags generator with previews for Google, Facebook, Twitter, LinkedIn, Pinterest and Slack.",
+    "published_at": "2021-04-18T16:05:32.112Z",
+    "created_at": "2021-04-18T16:05:30.412Z",
+    "updated_at": "2021-04-18T16:05:32.139Z",
+    "authors": [
+      {
+        "id": 11,
+        "Name": "Meta Tags",
+        "Website": "https://metatags.io/",
+        "published_at": "2021-04-18T15:56:04.086Z",
+        "created_at": "2021-04-18T15:56:02.431Z",
+        "updated_at": "2021-04-18T15:56:04.111Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 11,
+        "name": "SEO",
+        "published_at": "2021-04-18T10:08:58.083Z",
+        "created_at": "2021-04-18T10:08:56.601Z",
+        "updated_at": "2021-04-18T10:08:58.117Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Remotion",
+    "url": "https://remotion.dev",
+    "logo": "/images/issue-2/remotion.png",
+    "description": "Use the magic of CSS, SVGs and WebGL to create professionally designed videos with React 17 and TypeScript. It also allows you to preview your the video in the browser with fast refresh and Timelines for frames.",
+    "published_at": "2021-04-18T16:06:13.423Z",
+    "created_at": "2021-04-18T16:06:11.659Z",
+    "updated_at": "2021-04-18T16:06:13.456Z",
+    "authors": [
+      {
+        "id": 12,
+        "Name": "Jonny Burger",
+        "Website": "https://jonny.io/",
+        "published_at": "2021-04-18T15:56:27.760Z",
+        "created_at": "2021-04-18T15:56:26.171Z",
+        "updated_at": "2021-04-18T15:56:27.809Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "published_at": "2021-04-18T09:56:56.626Z",
+        "created_at": "2021-04-18T09:51:26.520Z",
+        "updated_at": "2021-04-18T09:56:56.650Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "react-laag",
+    "url": "https://www.react-laag.com/",
+    "logo": "/images/issue-3/react-laag.png",
+    "description": "It is a simple and lightweight library, that provides hooks for tooltip and popovers. It also gives you a really comprehensive API which gives you full control over the look and feel.",
+    "published_at": "2021-04-18T16:07:12.080Z",
+    "created_at": "2021-04-18T16:07:10.294Z",
+    "updated_at": "2021-04-18T16:07:12.108Z",
+    "authors": [
+      {
+        "id": 13,
+        "Name": "Erik Verweij",
+        "Website": "https://www.erikverweij.dev/",
+        "published_at": "2021-04-18T15:57:25.708Z",
+        "created_at": "2021-04-18T15:57:23.701Z",
+        "updated_at": "2021-04-18T15:57:25.743Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 12,
+        "name": "UI",
+        "published_at": "2021-04-18T10:09:20.491Z",
+        "created_at": "2021-04-18T10:09:18.964Z",
+        "updated_at": "2021-04-18T10:09:20.514Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Phosphor Icons",
+    "url": "https://phosphoricons.com/",
+    "logo": "/images/issue-3/phosphor-icons.png",
+    "description": "A free and open-source icon family for interfaces, diagrams and presentations. Easy to pick up and plug in. Truly consistent in style and scale. Flexible to multiple sizes and weights.",
+    "published_at": "2021-04-18T16:07:55.224Z",
+    "created_at": "2021-04-18T16:07:53.466Z",
+    "updated_at": "2021-04-18T16:07:55.254Z",
+    "authors": [
+      {
+        "id": 14,
+        "Name": "Helena Zhang",
+        "Website": "https://www.helenazhang.com/",
+        "published_at": "2021-04-18T15:58:04.443Z",
+        "created_at": "2021-04-18T15:58:02.799Z",
+        "updated_at": "2021-04-18T15:58:04.467Z"
+      },
+      {
+        "id": 15,
+        "Name": "Toby Fried",
+        "Website": "https://tobiasfried.com/",
+        "published_at": "2021-04-18T15:58:41.037Z",
+        "created_at": "2021-04-18T15:58:39.575Z",
+        "updated_at": "2021-04-18T15:58:41.068Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 12,
+        "name": "UI",
+        "published_at": "2021-04-18T10:09:20.491Z",
+        "created_at": "2021-04-18T10:09:18.964Z",
+        "updated_at": "2021-04-18T10:09:20.514Z"
+      },
+      {
+        "id": 21,
+        "name": "Icons",
+        "published_at": "2021-04-18T16:22:43.097Z",
+        "created_at": "2021-04-18T16:22:41.222Z",
+        "updated_at": "2021-04-18T16:27:35.472Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Jitter",
+    "url": "https://jitter.video",
+    "logo": "/images/issue-4/jitter.svg",
+    "description": "Create rich animations for your design from your browser, with a UI as simple as creating a presentation in PowerPoint or Keynote.",
+    "published_at": "2021-04-18T16:08:42.751Z",
+    "created_at": "2021-04-18T16:08:41.130Z",
+    "updated_at": "2021-04-18T16:08:42.780Z",
+    "authors": [
+      {
+        "id": 16,
+        "Name": "Sébastien Robaszkiewicz",
+        "Website": "http://robi.me/",
+        "published_at": "2021-04-18T15:59:40.257Z",
+        "created_at": "2021-04-18T15:59:38.745Z",
+        "updated_at": "2021-04-18T15:59:40.317Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 12,
+        "name": "UI",
+        "published_at": "2021-04-18T10:09:20.491Z",
+        "created_at": "2021-04-18T10:09:18.964Z",
+        "updated_at": "2021-04-18T10:09:20.514Z"
+      },
+      {
+        "id": 17,
+        "name": "Design",
+        "published_at": "2021-04-18T10:10:13.558Z",
+        "created_at": "2021-04-18T10:10:11.835Z",
+        "updated_at": "2021-04-18T10:10:13.610Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "SVG Repo",
+    "url": "https://svgrepo.com",
+    "logo": "/images/issue-4/svg-repo.svg",
+    "description": "A huge repository of free SVG icons (over 300.000 icons), with a good search and filters.",
+    "published_at": "2021-04-18T16:09:28.077Z",
+    "created_at": "2021-04-18T16:09:26.345Z",
+    "updated_at": "2021-04-18T16:09:28.106Z",
+    "authors": [
+      {
+        "id": 17,
+        "Name": "SVG Repo",
+        "Website": "https://www.svgrepo.com/",
+        "published_at": "2021-04-18T16:01:09.115Z",
+        "created_at": "2021-04-18T16:01:07.409Z",
+        "updated_at": "2021-04-18T16:01:09.140Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 12,
+        "name": "UI",
+        "published_at": "2021-04-18T10:09:20.491Z",
+        "created_at": "2021-04-18T10:09:18.964Z",
+        "updated_at": "2021-04-18T10:09:20.514Z"
+      },
+      {
+        "id": 21,
+        "name": "Icons",
+        "published_at": "2021-04-18T16:22:43.097Z",
+        "created_at": "2021-04-18T16:22:41.222Z",
+        "updated_at": "2021-04-18T16:27:35.472Z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Omatsuri",
+    "url": "https://omatsuri.app/",
+    "logo": "/images/issue-5/omatsuri.svg",
+    "description": "A collection of browser tools like SVG to JSX generator, Keyboard events codes, Gradient generator etc. that can ease your life as a web developer.",
+    "published_at": "2021-04-18T16:10:11.565Z",
+    "created_at": "2021-04-18T16:10:09.784Z",
+    "updated_at": "2021-04-18T16:10:11.595Z",
+    "authors": [
+      {
+        "id": 18,
+        "Name": "Vitaly Rtishchev",
+        "Website": "https://github.com/rtivital",
+        "published_at": "2021-04-18T16:01:52.240Z",
+        "created_at": "2021-04-18T16:01:50.561Z",
+        "updated_at": "2021-04-18T16:01:52.269Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 18,
+        "name": "Productivity",
+        "published_at": "2021-04-18T10:10:43.391Z",
+        "created_at": "2021-04-18T10:10:41.091Z",
+        "updated_at": "2021-04-18T10:10:43.417Z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Spectacle",
+    "url": "https://formidable.com/open-source/spectacle/",
+    "logo": "/images/issue-5/spectacle.png",
+    "description": "A React library that lets you build interactive presentation decks with JSX syntax, and allows you to live preview your code.",
+    "published_at": "2021-04-18T16:10:54.235Z",
+    "created_at": "2021-04-18T16:10:52.538Z",
+    "updated_at": "2021-04-18T16:10:54.264Z",
+    "authors": [
+      {
+        "id": 19,
+        "Name": "Formidable",
+        "Website": "https://formidable.com/",
+        "published_at": "2021-04-18T16:02:44.622Z",
+        "created_at": "2021-04-18T16:02:43.060Z",
+        "updated_at": "2021-04-18T16:02:44.650Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "published_at": "2021-04-18T09:56:56.626Z",
+        "created_at": "2021-04-18T09:51:26.520Z",
+        "updated_at": "2021-04-18T09:56:56.650Z"
+      },
+      {
+        "id": 12,
+        "name": "UI",
+        "published_at": "2021-04-18T10:09:20.491Z",
+        "created_at": "2021-04-18T10:09:18.964Z",
+        "updated_at": "2021-04-18T10:09:20.514Z"
+      }
+    ]
+  }
+]

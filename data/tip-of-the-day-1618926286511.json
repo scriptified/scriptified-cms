@@ -1,1 +1,97 @@
-[{"id":1,"description":"Getting unique values from an array required the [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method with the combination of something like [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) to find whether the value already exists or not. But with the new [native Set object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) this is super clean and easy:","sourceName":"Google","sourceURL":"https://google.com","title":"Unique values from array","published_at":"2021-04-18T15:24:18.511Z","created_at":"2021-04-18T15:18:03.073Z","updated_at":"2021-04-18T15:24:18.535Z","tags":[{"id":2,"name":"JavaScript","published_at":"2021-04-18T09:56:53.651Z","created_at":"2021-04-18T09:51:43.044Z","updated_at":"2021-04-18T09:56:53.690Z"}]},{"id":2,"description":"You can open all links in a document in a new tab without adding `target=_blank` to every link with the [`<base>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base) element. You can also specify a base path using the `href` atrribute which will be used for all the relative URLs.","sourceName":"@denicmarko on Twitter","sourceURL":"https://twitter.com/denicmarko/status/1312704890737655808?s=20","title":"Open all links in new tab","published_at":"2021-04-18T15:26:03.561Z","created_at":"2021-04-18T15:26:01.640Z","updated_at":"2021-04-18T15:26:03.589Z","tags":[{"id":3,"name":"HTML","published_at":"2021-04-18T09:56:50.338Z","created_at":"2021-04-18T09:51:53.420Z","updated_at":"2021-04-18T09:56:50.406Z"}]},{"id":3,"description":"You can use placeholder commas in the beginning to skip elements while [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) an array. For instance you want to create a new array skipping the first two elements of another array, you can do it like this - ","sourceName":"@SimonHoiberg on Twitter","sourceURL":"https://twitter.com/SimonHoiberg/status/1367459156211425280?s=20","title":"Skip values while destructuring","published_at":"2021-04-18T15:27:34.668Z","created_at":"2021-04-18T15:27:33.061Z","updated_at":"2021-04-18T15:27:34.690Z","tags":[{"id":2,"name":"JavaScript","published_at":"2021-04-18T09:56:53.651Z","created_at":"2021-04-18T09:51:43.044Z","updated_at":"2021-04-18T09:56:53.690Z"}]},{"id":4,"description":"If you want to test some DOM element from the browser console and you need `document.querySelectorAll` for it, you can use the handy `$$` shorthand specifically available only on DevTools.","sourceName":"@stackblitz on Twitter","sourceURL":"https://twitter.com/stackblitz/status/1364941813832962053?s=20","title":"document.querySelectorAll shorthand in DevTools","published_at":"2021-04-18T15:29:49.839Z","created_at":"2021-04-18T15:29:04.167Z","updated_at":"2021-04-18T15:29:49.862Z","tags":[{"id":2,"name":"JavaScript","published_at":"2021-04-18T09:56:53.651Z","created_at":"2021-04-18T09:51:43.044Z","updated_at":"2021-04-18T09:56:53.690Z"}]},{"id":5,"description":"Wrap your variables in `{}` when you `console.log`, and it would display the names of your variables automatically, via the ES6\\'s \"Object literal value property shorthand\".","sourceName":"@anniebombanie_ on Twitter","sourceURL":"https://twitter.com/anniebombanie_/status/1374756148923006977/photo/1","title":"Log multiple var in console","published_at":"2021-04-18T15:31:25.289Z","created_at":"2021-04-18T15:31:23.581Z","updated_at":"2021-04-18T15:31:25.338Z","tags":[{"id":2,"name":"JavaScript","published_at":"2021-04-18T09:56:53.651Z","created_at":"2021-04-18T09:51:43.044Z","updated_at":"2021-04-18T09:56:53.690Z"}]}]
+[
+  {
+    "id": 1,
+    "description": "Getting unique values from an array required the [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method with the combination of something like [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) to find whether the value already exists or not. But with the new [native Set object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) this is super clean and easy:",
+    "sourceName": "Google",
+    "sourceURL": "https://google.com",
+    "title": "Unique values from array",
+    "published_at": "2021-04-18T15:24:18.511Z",
+    "created_at": "2021-04-18T15:18:03.073Z",
+    "updated_at": "2021-04-18T15:24:18.535Z",
+    "tags": [
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "published_at": "2021-04-18T09:56:53.651Z",
+        "created_at": "2021-04-18T09:51:43.044Z",
+        "updated_at": "2021-04-18T09:56:53.690Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "description": "You can open all links in a document in a new tab without adding `target=_blank` to every link with the [`<base>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base) element. You can also specify a base path using the `href` atrribute which will be used for all the relative URLs.",
+    "sourceName": "@denicmarko on Twitter",
+    "sourceURL": "https://twitter.com/denicmarko/status/1312704890737655808?s=20",
+    "title": "Open all links in new tab",
+    "published_at": "2021-04-18T15:26:03.561Z",
+    "created_at": "2021-04-18T15:26:01.640Z",
+    "updated_at": "2021-04-18T15:26:03.589Z",
+    "tags": [
+      {
+        "id": 3,
+        "name": "HTML",
+        "published_at": "2021-04-18T09:56:50.338Z",
+        "created_at": "2021-04-18T09:51:53.420Z",
+        "updated_at": "2021-04-18T09:56:50.406Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "description": "You can use placeholder commas in the beginning to skip elements while [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) an array. For instance you want to create a new array skipping the first two elements of another array, you can do it like this - ",
+    "sourceName": "@SimonHoiberg on Twitter",
+    "sourceURL": "https://twitter.com/SimonHoiberg/status/1367459156211425280?s=20",
+    "title": "Skip values while destructuring",
+    "published_at": "2021-04-18T15:27:34.668Z",
+    "created_at": "2021-04-18T15:27:33.061Z",
+    "updated_at": "2021-04-18T15:27:34.690Z",
+    "tags": [
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "published_at": "2021-04-18T09:56:53.651Z",
+        "created_at": "2021-04-18T09:51:43.044Z",
+        "updated_at": "2021-04-18T09:56:53.690Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "description": "If you want to test some DOM element from the browser console and you need `document.querySelectorAll` for it, you can use the handy `$$` shorthand specifically available only on DevTools.",
+    "sourceName": "@stackblitz on Twitter",
+    "sourceURL": "https://twitter.com/stackblitz/status/1364941813832962053?s=20",
+    "title": "document.querySelectorAll shorthand in DevTools",
+    "published_at": "2021-04-18T15:29:49.839Z",
+    "created_at": "2021-04-18T15:29:04.167Z",
+    "updated_at": "2021-04-18T15:29:49.862Z",
+    "tags": [
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "published_at": "2021-04-18T09:56:53.651Z",
+        "created_at": "2021-04-18T09:51:43.044Z",
+        "updated_at": "2021-04-18T09:56:53.690Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "description": "Wrap your variables in `{}` when you `console.log`, and it would display the names of your variables automatically, via the ES6\\'s \"Object literal value property shorthand\".",
+    "sourceName": "@anniebombanie_ on Twitter",
+    "sourceURL": "https://twitter.com/anniebombanie_/status/1374756148923006977/photo/1",
+    "title": "Log multiple var in console",
+    "published_at": "2021-04-18T15:31:25.289Z",
+    "created_at": "2021-04-18T15:31:23.581Z",
+    "updated_at": "2021-04-18T15:31:25.338Z",
+    "tags": [
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "published_at": "2021-04-18T09:56:53.651Z",
+        "created_at": "2021-04-18T09:51:43.044Z",
+        "updated_at": "2021-04-18T09:56:53.690Z"
+      }
+    ]
+  }
+]
