@@ -54,6 +54,11 @@
     "quiz": {
       "via": "issue",
       "model": "quiz"
+    },
+    "isDraft": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
