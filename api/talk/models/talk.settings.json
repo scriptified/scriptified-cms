@@ -26,13 +26,13 @@
       "required": true
     },
     "tags": {
-      "collection": "tag",
       "via": "talks",
+      "collection": "tag",
       "dominant": true
     },
     "authors": {
-      "collection": "author",
       "via": "talks",
+      "collection": "author",
       "dominant": true
     },
     "issue": {

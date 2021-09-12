@@ -26,13 +26,13 @@
       "required": true
     },
     "tags": {
-      "collection": "tag",
       "via": "articles",
+      "collection": "tag",
       "dominant": true
     },
     "authors": {
-      "collection": "author",
       "via": "articles",
+      "collection": "author",
       "dominant": true
     },
     "issue": {

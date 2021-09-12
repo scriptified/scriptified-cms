@@ -13,23 +13,26 @@
   "attributes": {
     "description": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "unique": false
     },
     "sourceName": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "sourceURL": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "tags": {
-      "collection": "tag",
       "via": "tips_of_the_day",
+      "collection": "tag",
       "dominant": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": false
     },
     "codeSnippet": {
       "type": "component",

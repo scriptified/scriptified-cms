@@ -32,12 +32,12 @@
       "via": "issue"
     },
     "tipOfTheWeek": {
-      "model": "tip-of-the-day",
-      "via": "issue"
+      "via": "issue",
+      "model": "tip-of-the-day"
     },
     "tools": {
-      "collection": "tool",
-      "via": "issue"
+      "via": "issue",
+      "collection": "tool"
     },
     "devOfTheWeek": {
       "model": "dev-of-the-week",

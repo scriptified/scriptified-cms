@@ -2,7 +2,8 @@
   "collectionName": "components_code_code_snippets",
   "info": {
     "name": "CodeSnippet",
-    "icon": "file-code"
+    "icon": "file-code",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,10 +14,18 @@
     "language": {
       "type": "enumeration",
       "enum": [
+        "javascript",
         "js",
         "jsx",
+        "tsx",
         "html",
-        "css"
+        "css",
+        "bash",
+        "markdown",
+        "sass",
+        "scss",
+        "git",
+        "yaml"
       ],
       "required": true
     },

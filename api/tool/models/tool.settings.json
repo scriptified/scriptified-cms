@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tools",
   "info": {
-    "name": "Tool"
+    "name": "Tool",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,7 +14,7 @@
     "name": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "url": {
       "type": "string",
@@ -22,21 +23,21 @@
     },
     "logo": {
       "type": "string",
-      "unique": true,
-      "required": true
+      "unique": false,
+      "required": false
     },
     "description": {
       "type": "richtext",
       "required": true
     },
     "authors": {
-      "collection": "author",
       "via": "tools",
+      "collection": "author",
       "dominant": true
     },
     "tags": {
-      "collection": "tag",
       "via": "tools",
+      "collection": "tag",
       "dominant": true
     },
     "issue": {
